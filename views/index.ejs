@@ -1,0 +1,35 @@
+<%- include("partials/header") %>
+     <div class="container">
+          <div class="input-text">
+             <form action="/" method="post">
+                <input type="text" name="city" placeholder="your location">
+                <button type="submit" name="submit">go</button>
+             </form>     
+          </div>
+          <div class="sun-image-description">
+              <img src="image/cloud.png" alt="image of cloud">
+              <h1>22°C</h1>
+              <p>Ethiopia</p>
+          </div>
+          <div class="humidity-wind">
+              <div class="humidity">
+                <div>
+                    <img src="image/water.png" alt="humidity icon">
+                </div>
+                <div>
+                    <h1>humid</h1>
+                    <p>humidity</p>
+                </div>
+              </div>
+              <div class="wind">
+                <div> 
+                    <img src="image/wind.png" alt="wind icon">
+                </div>
+                <div>
+                    <h1>wind</h1>
+                    <p>wind></p>
+                </div>  
+              </div>
+          </div>
+     </div>
+<%- include("partials/footer") %>
